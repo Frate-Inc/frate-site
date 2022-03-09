@@ -78,7 +78,7 @@ function App() {
       <div className="grid grid-cols-6 border-black border-b-2">
         <div className='border-black border-r-2 text-center p-8 bg-red-400'>
           <div className='text-3xl'>
-            <span className='extra'>102B</span> USD spend annually on returns
+            <span className='extra'>102B</span> USD spent annually on returns
           </div>
         </div>
         <div className='border-black border-r-2 text-center p-8 bg-green-500'>
