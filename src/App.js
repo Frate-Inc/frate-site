@@ -76,7 +76,7 @@ function App() {
       </div>
 
       <div className="grid grid-cols-6 border-black border-b-2">
-        <div className='border-black border-r-2 text-center p-8 bg-red-400'>
+        <div className='border-black border-r-2 text-center p-8 bg-white'>
           <div className='text-3xl'>
             <span className='extra'>102B</span> USD spent annually on returns
           </div>
@@ -86,12 +86,12 @@ function App() {
             <span className='extra'>66%</span> cost of the average return to a retailer
           </div>
         </div>
-        <div className='border-black border-r-2 text-center p-8 bg-yellow-400'>
+        <div className='border-black border-r-2 text-center p-8 bg-green-300'>
           <div className='text-3xl'>
             <span className='extra'>42%</span> of retailers pay the cost of return shipping
           </div>
         </div>
-        <div className='border-black border-r-2 text-center p-8'>
+        <div className='border-black border-r-2 text-center p-8 bg-green-200'>
           <div className='text-3xl'>
             <span className='extra'>15M</span> tonnes of CO2 emitted from return shipping trips
           </div>
