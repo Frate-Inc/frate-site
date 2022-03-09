@@ -223,7 +223,7 @@ function App() {
         <div className='text-center text-white text-3xl bg-black-300 '>
           Co-founder & CTO
           <br></br>
-          Former Data Scientist @ Meta
+          Data Scientist @ Meta
         </div>
 
         <div className='text-center text-white text-3xl bg-black-300 '>
