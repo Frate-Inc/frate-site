@@ -6,28 +6,49 @@ import logo from './images/logo.png'
 import charlie from './images/charlie.png'
 import mok from './images/mok.png'
 import bailey from './images/bailey.png'
-import { useCallback } from 'react';
+import fedex from './images/fedex.png'
+import shopify from './images/shopify.png'
+import choosing from './images/choosing.png'
 
 function App() {
-
-  const handleScroll = useCallback(() => {
-    window.scroll({
-      top: document.body.offsetHeight,
-      left: 0, 
-      behavior: 'smooth',
-    });
-  })
 
   return (
     <div>
 
-      <div className="flex justify-between border-b-2 border-black py-6">
+    <div className='grid grid-cols-6 border-b-2 border-black'>
+      <div className="flex justify-between  py-6">
         <div>
           <div className='logo pl-5'>
             <img src={logo} alt="logo"/>
           </div>
         </div>
       </div>
+      <div className="..."></div>
+      <div className="..."></div>
+      <div className="..."></div>
+      <div className="..."></div>
+
+      <div className='grid grid-cols-2 p-5'>
+        <div className="flex justify-between  py-6">
+          <div>
+            <div className='logo pl-5 pt-6 title text-2xl'>
+              <a href="#team">Team</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-between py-6">
+          <div>
+            <div className='logo pl-5 pt-6 pr-5 title text-2xl'>
+              <a href="#how">Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+      
 
       <div className="grid grid-cols-2">
 
@@ -44,7 +65,7 @@ function App() {
             returns from customer to customer
             <br></br>
             <br></br>
-            <button onClick={handleScroll} className='underline'>See how it works &rarr;</button>
+            <a href="#how" className='underline'>See how it works &rarr;</a>
             <br></br>
             <br></br>
           </div>
@@ -165,12 +186,80 @@ function App() {
         </div>
 
         </div>
+      
+        <div className='grid grid-cols-1'>
+
+          <div className="col-span-3">
+            <div className='text-5xl p-5 text-center'>
+              <div id="how" className='extra pt-8' >
+                  How it works ...
+              </div>
+            </div>
+              <br></br>
+          </div>
+        </div>
+
+        <div className='grid grid-cols-3'>
+
+          <div className="col-span-1">
+            <div className='text-4xl p-5 text-center headshot fedex'>
+              <img src={fedex} alt="fedex" />
+              <div className='extra pt-8'>
+                Paperless Labels 
+              </div>
+              <div className='text-2xl pt-4'>
+                We partnered with Fedex to allow your customers to show the shipping clerk a QR code instead of printing out their label.50px
+              </div>
+            </div>
+              <br></br>
+          </div>
+
+
+          <div className="col-span-1 pt-4">
+            <div className='text-4xl p-5 text-center headshot shopify'>
+              <img src={shopify} alt="shopify" />
+              <div className='extra pt-8'>
+                Shopify Admin App
+              </div>
+              <div className='text-2xl pt-4'>
+                We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily.  
+              </div>
+            </div>
+              <br></br>
+          </div>
+
+          <div className="col-span-1">
+            <div className='text-4xl p-5 text-center headshot choosing'>
+              <img src={choosing} alt="choosing" />
+              <div className='extra pt-8'>
+                Autonomy over product eligibility
+              </div>
+              <div className='text-2xl pt-4'>
+                You can choose which product returns are allowwed to be drop shipped from customer to customer.
+              </div>
+            </div>
+              <br></br>
+          </div>
+
+          <div className="col-span-3">
+            <div className='text-4xl p-5 text-center'>
+              <div className='extra'>
+                  Email Bailey or Charlie to book a demo:
+                  <br></br>
+                  <div className='pt-4'>charlie@frate.co or bailey@frate.co</div>
+                  
+              </div>
+            </div>
+              <br></br>
+          </div>
+
+        </div>
 
       <div className='grid grid-cols-3 bg-black border-black border-b-2'>
 
         <div className="col-span-3">
           <div className='text-5xl p-5 text-center text-white'>
-            <div className='extra pt-8'>
+            <div id="team" className='extra pt-8'>
                 Our Team
             </div>
           </div>
@@ -236,18 +325,7 @@ function App() {
         </div>
 
         <br></br>
-
-        <div className="col-span-3">
-          <div className='text-5xl p-5 text-center text-white'>
-            <div className='title pt-8'>
-                Email Bailey or Charlie to book a demo:
-                <br></br>
-                <div className='pt-4'>charlie@frate.co or bailey@frate.co</div>
-                
-            </div>
-          </div>
-            <br></br>
-        </div>
+        <br></br>
 
       </div>
 
