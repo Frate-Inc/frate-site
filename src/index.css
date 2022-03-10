@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,18 +6,23 @@
 
 body {
   margin: 0;
-  font-family: 'Source Serif Pro';
+  font-family: 'Lato';
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .title {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .extra {
-  font-weight: 900;
+  font-weight: 700;
+}
+
+.ital {
+  font-weight: 700;
+  font-style: italic;
 }
 
 .logo {
@@ -26,6 +31,10 @@ body {
 
 .headshot {
   width: 500px;
+}
+
+.animation1 {
+  left: 400px;
 }
 
 .animation2 {
@@ -50,3 +59,5 @@ body {
   width: 350px;
   left: 100px
 }
+
+

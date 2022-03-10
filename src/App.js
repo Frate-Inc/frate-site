@@ -11,7 +11,6 @@ import { useCallback } from 'react';
 function App() {
 
   const handleScroll = useCallback(() => {
-    console.log('hey')
     window.scroll({
       top: document.body.offsetHeight,
       left: 0, 
@@ -30,12 +29,10 @@ function App() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-2">
 
-        <div className="col-span-2 border-b-2 border-r-2 border-black text-center bg-green-500">
+        <div className="col-span-1 border-b-2 border-r-2 border-black text-center bg-green-500">
           <div className='color-white text-8xl p-8'>
-            <br></br>
-            <br></br>
             <br></br>
             Reinvent returns to save the planet 
             <br></br>
@@ -53,8 +50,12 @@ function App() {
           </div>
         </div>
 
-        <div className="border-b-2 border-black">
-          <img src={animation1} alt="animation"/>
+        <div className="pl-8 pb-8 border-b-2 border-black">
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <img src={animation1} alt="animation" />
         </div>
 
         <div className="col-span-3 bg-black">
@@ -81,29 +82,29 @@ function App() {
             <span className='extra'>102B</span> USD spent annually on returns
           </div>
         </div>
-        <div className='border-black border-r-2 text-center p-8 bg-green-500'>
+        <div className='border-black border-r-2 text-center p-8 bg-green-100'>
           <div className='text-3xl'>
             <span className='extra'>66%</span> cost of the average return to a retailer
           </div>
         </div>
-        <div className='border-black border-r-2 text-center p-8 bg-green-300'>
+        <div className='border-black border-r-2 text-center p-8 bg-green-200'>
           <div className='text-3xl'>
             <span className='extra'>42%</span> of retailers pay the cost of return shipping
           </div>
         </div>
-        <div className='border-black border-r-2 text-center p-8 bg-green-200'>
+        <div className='border-black border-r-2 text-center p-8 bg-green-300'> 
           <div className='text-3xl'>
-            <span className='extra'>15M</span> tonnes of CO2 emitted from return shipping trips
-          </div>
-        </div>
-        <div className='border-black border-r-2 text-center p-8 bg-black'> 
-          <div className='text-3xl text-white'>
             <span className='extra'>5B</span> pounds of returns in landfills annually
           </div>
         </div>
-        <div className='text-center p-8'>
+        <div className='text-center p-8 bg-green-400'>
           <div className='text-3xl'>
             <span className='extra'>46%</span> of return packaging is wasted
+          </div>
+        </div>
+        <div className='border-black border-l-2 text-center p-8 bg-green-500'>
+          <div className='text-3xl'>
+            <span className='extra'>15M</span> tonnes of CO2 emitted from return shipping trips
           </div>
         </div>
 
