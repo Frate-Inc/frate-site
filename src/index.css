@@ -29,10 +29,6 @@ body {
   width: 300px;
 }
 
-.headshot {
-  width: 500px;
-}
-
 .animation1 {
   left: 400px;
 }
@@ -61,11 +57,11 @@ body {
 }
 
 .fedex {
-  top: 100px;
+  left: 400px;
 }
 
 .shopify {
-  top: 110px;
+  left: 70px;
 }
 
 .choosing {
