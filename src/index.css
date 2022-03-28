@@ -15,11 +15,12 @@ body {
 .navbar {
   position: fixed;
   z-index: 1;
+  width: 100vw;
 }
 
 .body {
   position: relative;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 
 .partners {
@@ -40,11 +41,11 @@ body {
 }
 
 .logo {
-  width: 300px;
+  width: 200px;
 }
 
 .animation1 {
-  left: 400px;
+  width: 1000px;
 }
 
 .animation2 {
