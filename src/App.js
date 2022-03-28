@@ -3,22 +3,17 @@ import animation1 from './images/animation1.png'
 import animation2 from './images/animation2.png'
 import animation3 from './images/animation3.png'
 import logo from './images/logo.png'
-import charlie from './images/charlie.png'
-import mok from './images/mok.png'
-import bailey from './images/bailey.png'
-import fedex from './images/fedex.png'
-import shopify from './images/shopify.png'
-import choosing from './images/choosing.png'
+import partners from './images/partners.png'
 
 function App() {
 
   return (
     <div>
-      <div className='grid grid-cols-6 border-b-2 border-black'>
-          <div className="flex justify-between  py-6">
+      <div className='grid grid-cols-6 border-black border-b-2 navbar bg-white'>
+          <div className="flex justify-between py-6">
             <div>
-                <div className='logo pl-5'>
-                  <img src={logo} alt="logo"/>
+                <div className='logo p-5'>
+                  <img src={logo} alt="logo"/> 
                 </div>
             </div>
           </div>
@@ -26,25 +21,27 @@ function App() {
           <div className="..."></div>
           <div className="..."></div>
           <div className="..."></div>
-          <div className='grid grid-cols-2 p-5'>
-            <div className="flex justify-between  py-6">
-                <div>
-                  <div className='logo pl-5 pt-6 extra text-2xl '>
-                      <a href="#team">Team</a>
-                  </div>
-                </div>
-            </div>
+          <div className='grid p-5'>
             <div className="flex justify-between py-6">
                 <div>
-                  <div className='logo pl-5 pt-6 pr-5 extra text-2xl '>
-                      <a href="#how" className='border-black border-2 p-3'>Demo</a>
+                  <div className='text-2xl pt-7'>
+                      <button className='bg-amber-300 button p-3 rounded extra border-black border-2 ital'>
+                        <a href="#how">
+                          Book a Demo!
+                        </a>
+                      </button>
+                      
                   </div>
                 </div>
             </div>
           </div>
       </div>
+
+    <div className='body'>
+
+    
       <div className="grid grid-cols-2">
-          <div className="col-span-1 border-b-2 border-r-2 border-black text-center bg-green-500">
+          <div className="col-span-1 text-center bg-green-500 border-black border-r-2 border-b-2">
             <div className='color-white text-8xl p-8'>
                 <br></br>
                 Reinvent returns to save the planet 
@@ -62,7 +59,7 @@ function App() {
                 <br></br>
             </div>
           </div>
-          <div className="pl-8 pb-8 border-b-2 border-black">
+          <div className="pl-8 pb-8 border-black border-b-2">
             <br></br>
             <br></br>
             <br></br>
@@ -70,9 +67,7 @@ function App() {
             <img src={animation1} alt="animation" />
           </div>
           <div className="col-span-3 bg-black">
-            <div className="text-white text-8xl p-5">
-                <marquee behavior="alternate" direction="left" scrollamount="5">Save the planet one return at a time</marquee>
-            </div>
+            
           </div>
           <div className="col-span-3 bg-white border-black border-b-2">
             <div className='text-5xl p-5 text-center'>
@@ -184,105 +179,30 @@ function App() {
             </div>
           </div>
       </div>
-      <div className='grid grid-cols-4'>
-          <div className="col-span-2">
-            <div className='text-4xl p-5 text-center headshot fedex'>
-                <img src={fedex} alt="fedex" />
-                <div className='extra pt-8'>
-                  Paperless Labels 
-                </div>
-                <div className='text-2xl pt-4'>
-                  We partnered with Fedex to allow your customers to show the shipping clerk a QR code instead of printing out their label.
-                </div>
+
+      <div className='grid grid-cols-1'>
+          <div className="col-span-3">
+            <div className='partners'>
+              <img src={partners} alt="partners"/> 
             </div>
-            <br></br>
           </div>
-          <div className="col-span-2 pt-4">
-            <div className='text-4xl p-5 text-center headshot shopify'>
-                <img src={shopify} alt="shopify" />
-                <div className='extra pt-8'>
-                  Shopify Admin App
-                </div>
-                <div className='text-2xl pt-4'>
-                  We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily.  
-                </div>
-            </div>
-            <br></br>
-          </div>
-          
       </div>
 
       <div className='grid grid-cols-4'>
             <div></div>
             <div className="col-span-2">
+              <br></br>
                 <div className='text-4xl p-5 text-center'>
-                  <div className='extra border-black border-2 p-4'>
-                      Email Bailey or Charlie to book a demo:
+                  <div className='extra rounded bg-amber-300 p-4 border-black border-2 drop-shadow-2xl'>
+                      Email Charlie to book a demo:
                       <br></br>
-                      <div className='pt-4'>charlie@frate.co or bailey@frate.co</div>
+                      <div className='pt-4'>charlie@frate.co</div>
                   </div>
                 </div>
                 <br></br>
             </div>
           </div>
-
-      <div className='grid grid-cols-3 bg-black border-black border-b-2'>
-          <div className="col-span-3">
-            <div className='text-5xl p-5 text-center text-white'>
-                <div id="team" className='extra pt-8'>
-                  Our Team
-                </div>
-            </div>
-            <br></br>
           </div>
-          <div className='text-center text-4xl bg-black-300'>
-            <div className='headshot'>
-                <img src={bailey} alt="bailey" />
-            </div>
-          </div>
-          <div className='text-center text-4xl '>
-            <div className='headshot'>
-                <img src={charlie} alt="charlie"/>
-            </div>
-          </div>
-          <div className='text-center text-4xl '>
-            <div className='mok'>
-                <img src={mok} alt="mok"/>
-            </div>
-          </div>
-      </div>
-      <div className='grid grid-cols-3 bg-black border-black border-b-2'>
-          <div className='extra text-center text-white text-4xl bg-black-300'>
-            <a href='https://www.linkedin.com/in/baileynewton/' className='underline'>Bailey Newton</a>
-          </div>
-          <div className='extra text-center text-white text-4xl bg-black-300 '>
-            <a href='https://www.linkedin.com/in/charlie-mackie-749ba314b/' className='underline'>Charlie Mackie</a>
-          </div>
-          <div className='extra text-center text-white text-4xl bg-black-300 '>
-            <a href='https://www.linkedin.com/in/youngmok-yun-43684765/' className='underline'>Youngmok Yun </a>
-          </div>
-      </div>
-      <div className='grid grid-cols-3 bg-black border-black border-b-2'>
-          <div className='text-center text-white text-2xl bg-black-300 pt-3'>
-            Co-founder & CEO
-            <br></br>
-            Strategy, Analytics, M&A Consultant @ Deloitte
-          </div>
-          <div className='text-center text-white text-2xl bg-black-300 pt-3'>
-            Co-founder & CTO
-            <br></br>
-            Data Scientist @ Meta
-          </div>
-          <div className='text-center text-white text-2xl bg-black-300 pt-3'>
-            Executive Board Member
-            <br></br>
-            CEO & Co-founder @ Contoro
-            <br></br>
-            CTO & Co-founder @ Harmonic Bionics
-          </div>
-          <br></br>
-          <br></br>
-      </div>
     </div>    
   );
 }
