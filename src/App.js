@@ -9,9 +9,11 @@ import shopify from './images/logo.png'
 
 function App() {
 
+// bg-gradient-to-r from-white via-white to-green-500
+
   return (
     <div>    
-    <div className='navbar bg-white border-black border-2'>
+    <div className='navbar border-black border-2 bg-gradient-to-r from-white via-white to-green-500'>
         <div className='grid grid-cols-2'>
           <div className='logo p-5'>
             <img src={logo} alt="logo"/> 
@@ -58,12 +60,12 @@ function App() {
           <div className="col-span-3 bg-black">
             
           </div>
-          <div className="col-span-3 bg-white border-black border-b-2">
-            <div className='text-3xl p-5 text-center'>
+          <div className="col-span-3 border-black border-b-2 ">
+            <div className='text-3xl p-5 text-center  extra'>
                 <div className='pt-8'>
                   The traditonal returns process 
                   <br></br>
-                  is killing your returns and the planet:
+                  is killing your profits and the planet:
                 </div>
             </div>
             <br></br>
@@ -102,8 +104,8 @@ function App() {
           </div>
       </div>
       <div className="col-span-3 bg-white border-black border-b-2">
-          <div className='text-3xl p-5 text-center'>
-            <div className='title pt-8'>
+          <div className='text-3xl p-5 text-center '>
+            <div className='title pt-8 extra'>
                 Let's reinvent this!
             </div>
           </div>
