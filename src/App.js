@@ -5,7 +5,7 @@ import animation3 from './images/animation3.png'
 import logo from './images/logo.png'
 import partners from './images/partners.png'
 import fedex from './images/fedex.png'
-import shopify from './images/shopify.png'
+import shopify from './images/logo.png'
 
 function App() {
 
