@@ -5,7 +5,7 @@ import animation3 from './images/animation3.png'
 import logo from './images/logo.png'
 import partners from './images/partners.png'
 import fedex from './images/fedex.png'
-import shopify from './images/logo.png'
+import shopify from './images/shopify.png'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>    
-    <div className='navbar border-black border-2 bg-gradient-to-r from-white via-white to-green-500'>
+    <div className='navbar border-black border-2 bg-white'>
         <div className='grid grid-cols-2'>
           <div className='logo p-5'>
             <img src={logo} alt="logo"/> 
@@ -30,7 +30,7 @@ function App() {
 
     <div className='body'>
       <div className="grid grid-cols-2 content-center">
-          <div className="col-span-1 text-end bg-green-500 border-black border-r-2 border-b-2 flex flex-wrap items-center p-10 text-center">
+          <div className="col-span-1 text-end bg-green-500 border-black border-b-2 flex flex-wrap items-center p-10 text-center">
             <div className='color-white text-5xl pl-8 extra '>
                 <br></br>
                 Reinvent returns to save the planet 
@@ -50,7 +50,7 @@ function App() {
             </div>
             </div>
           </div>
-          <div className="pl-8 pb-8 border-black border-b-2">
+          <div className="pl-8 pb-8 border-black border-b-2 bg-gradient-to-r from-green-500 via-green-400 to-white">
             <br></br>
             <br></br>
             <br></br>
@@ -161,7 +161,7 @@ function App() {
             </div>
           </div>
       </div>
-      <div className='grid grid-cols-1'>
+      <div className='grid grid-cols-1 '>
           <div className="col-span-3">
             <div className='text-3xl p-5 text-center'>
                 <div id="how" className='extra pt-8' >
@@ -172,25 +172,34 @@ function App() {
       </div>
 
       <div className='grid grid-cols-2 text-center'>
-        <div>
-          <img></img>
-          <div className='text-3xl extra'>
-            
+        <div className='flex flex-wrap justify-end items-center pr-10'>
+          <img src={fedex} className='brandLogo'></img>
+        </div>
+        <div className='flex flex-wrap justify-start items-center pl-10'>
+          <img src={shopify} className='brandLogo'></img>
+        </div>
+      </div>
+
+      <div className='grid grid-cols-2 '>
+        <div className='flex flex-wrap justify-end items-center text-right'>
+          <div className='text-2xl extra p-10'>
+            We partnered with Fedex to allow your customer to show the shipping 
+            clerk a QR code instead of printing out their label.
           </div>
         </div>
-        <div>
-          <div className='text-3xl extra'>
-            
+        <div className='flex flex-wrap justify-start items-center p-10'>
+          <div className='text-2xl extra'>
+            We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily. Not on Shopify? We'd still love to hear from you!
           </div>
         </div>
       </div>
 
-      <div className='grid grid-cols-4'>
+      <div className='grid grid-cols-4 ' >
             <div></div>
             <div className="col-span-2">
               <br></br>
                 <div className='text-3xl p-5 text-center'>
-                  <div className='extra rounded bg-amber-300 p-4 border-black border-2 drop-shadow-2xl'>
+                  <div className='extra rounded bg-amber-300 p-4 border-black border-2 drop-shadow-2xl '>
                       Email Charlie to book a demo:
                       <br></br>
                       <div className='pt-4'>charlie@frate.co</div>
