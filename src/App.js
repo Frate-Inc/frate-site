@@ -19,7 +19,7 @@ function App() {
             <img src={logo} alt="logo"/> 
           </div>
           <div class="flex flex-wrap justify-end items-center p-5">
-          <button className='bg-amber-300 button p-3 rounded extra border-black border-2 ital text-2xl'>
+          <button className='bg-amber-300 button p-3 rounded extra border-black border-2 text-2xl'>
             <a href="#how">
               Book a Demo!
             </a>
@@ -30,8 +30,8 @@ function App() {
 
     <div className='body'>
       <div className="grid grid-cols-2 content-center">
-          <div className="col-span-1 text-end bg-green-500 border-black border-b-2 flex flex-wrap items-center p-10 text-center">
-            <div className='color-white text-5xl pl-8 extra '>
+          <div className="col-span-1 text-end bg-green-700 border-black border-b-2 flex flex-wrap items-center p-10 text-center">
+            <div className='color-white text-white text-5xl pl-8 extra '>
                 <br></br>
                 Reinvent returns to save the planet 
                 <br></br>
@@ -50,7 +50,7 @@ function App() {
             </div>
             </div>
           </div>
-          <div className="pl-8 pb-8 border-black border-b-2 bg-gradient-to-r from-green-500 via-green-400 to-white">
+          <div className="pl-8 pb-8 border-black border-b-2 bg-gradient-to-r from-green-700 via-green-600 to-white">
             <br></br>
             <br></br>
             <br></br>
@@ -72,34 +72,34 @@ function App() {
           </div>
       </div>
       <div className="grid grid-cols-6 border-black border-b-2">
-          <div className='border-black border-r-2 text-center p-8 bg-white'>
+          <div className='border-black border-r-2 text-center p-8 bg-green-100'>
             <div className='text-2xl'>
                 <span className='extra'>$102B</span> USD spent annually on returns
             </div>
           </div>
-          <div className='border-black border-r-2 text-center p-8 bg-green-100'>
+          <div className='border-black border-r-2 text-center p-8 bg-green-200'>
             <div className='text-2xl'>
                 <span className='extra'>66%</span> cost of the average return to a retailer
             </div>
           </div>
-          <div className='border-black border-r-2 text-center p-8 bg-green-200'>
+          <div className='border-black border-r-2 text-center p-8 bg-green-300'>
             <div className='text-2xl'>
                 <span className='extra'>42%</span> of retailers pay the cost of return shipping
             </div>
           </div>
-          <div className='border-black border-r-2 text-center p-8 bg-green-300'>
+          <div className='border-black border-r-2 text-center p-8 bg-green-400'>
             <div className='text-2xl'>
                 <span className='extra'>5B</span> pounds of returns in landfills annually
             </div>
           </div>
-          <div className='text-center p-8 bg-green-400'>
-            <div className='text-2xl'>
+          <div className='text-center p-8 bg-green-500'>
+            <div className='text-2xl '>
                 <span className='extra'>46%</span> of return packaging is wasted
             </div>
           </div>
-          <div className='border-black border-l-2 text-center p-8 bg-green-500'>
+          <div className='border-black border-l-2 text-center p-8 bg-green-600'>
             <div className='text-2xl'>
-                <span className='extra'>15M</span> tonnes of CO2 emitted from return shipping trips
+                <span className='extra '>15M</span> tonnes of CO2 emitted from return shipping trips
             </div>
           </div>
       </div>
@@ -121,7 +121,7 @@ function App() {
                 customer ships item back to your store/warehouse, workers handle, process, and repackage the return, then ship it out to the next customer at a discount OR liquidate it. 
             </div>
           </div>
-          <div className='text-center text-3xl bg-green-500 border-black border-l-2 extra'>
+          <div className='text-center text-3xl bg-green-700 border-black border-l-2 extra text-white'>
             <br></br>
             <span className='title extra'>With Frate:</span>
             <br></br>
@@ -155,7 +155,7 @@ function App() {
                 </div>
             </div>
           </div>
-          <div className='text-center text-4xl bg-green-500 border-l-2 border-black'>
+          <div className='text-center text-white text-4xl bg-green-700 border-l-2 border-black'>
             <div className='animation3'>
                 <img src={animation3} alt="animation3"/>
             </div>
