@@ -6,10 +6,9 @@ import logo from './images/logo.png'
 import partners from './images/partners.png'
 import fedex from './images/fedex.png'
 import shopify from './images/shopify.png'
+import { Widget, PopupButton, Sidetab } from '@typeform/embed-react'
 
 function App() {
-
-// bg-gradient-to-r from-white via-white to-green-500
 
   return (
     <div>    
@@ -18,7 +17,7 @@ function App() {
           <div className='logo p-5'>
             <img src={logo} alt="logo"/> 
           </div>
-          <div class="flex flex-wrap justify-end items-center p-5">
+          <div className="flex flex-wrap justify-end items-center p-5">
           <button className='bg-amber-300 button p-3 rounded extra border-black border-2 text-2xl'>
             <a href="#how">
               Book a Demo!
@@ -192,23 +191,18 @@ function App() {
             We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily. Not on Shopify? We'd still love to hear from you!
           </div>
         </div>
+        <br></br>
+        <br></br>
       </div>
 
-      <div className='grid grid-cols-4 ' >
-            <div></div>
-            <div className="col-span-2">
-              <br></br>
-                <div className='text-3xl p-5 text-center'>
-                  <div className='extra rounded bg-amber-300 p-4 border-black border-2 drop-shadow-2xl '>
-                      Email Charlie to book a demo:
-                      <br></br>
-                      <div className='pt-4'>charlie@frate.co</div>
-                  </div>
-                </div>
-                <br></br>
-            </div>
-          </div>
-          </div>
+        <div className='border-t-2 border-black'>
+        <Widget id="WsXHBNzf" height={400} className="my-form" />
+        </div>
+        <div className='bg-stone-100 p-5'>
+          
+        </div>
+
+        </div> 
     </div>    
   );
 }
