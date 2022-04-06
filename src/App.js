@@ -195,12 +195,10 @@ function App() {
         <br></br>
       </div>
 
-        <div className='border-t-2 border-black'>
+        <div className=' bg-gray-500'>
         <Widget id="WsXHBNzf" height={400} className="my-form" />
         </div>
-        <div className='bg-stone-100 p-5'>
-          
-        </div>
+        
 
         </div> 
     </div>    
