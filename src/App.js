@@ -149,7 +149,7 @@ function App() {
               </div>
             </div>
         </div>
-        <div className='text-center text-3xl bg-white extra border-black border-4 card'>
+        <div className='text-center text-3xl bg-white extra border-black border-4 card '>
             <br></br>
             <span className='title extra'>With Frate:</span>
             <br></br>
@@ -168,8 +168,11 @@ function App() {
         </div>
         <br></br>
       </div>
+
+      <div className='p-10 bg-green-700'>
+      <div className='border-black border-4 card bg-white'>
       <div className='grid grid-cols-1'>
-        <div className="col-span-3">
+        <div className="col-span-3 ">
             <div className='text-3xl p-5 text-center'>
               <div id="how" className='extra p-8' >
                   How it works ...
@@ -200,8 +203,10 @@ function App() {
         <br></br>
         <br></br>
       </div>
+      </div>
+      </div>
       <div className=' bg-gray-500'>
-        <Widget id="WsXHBNzf" height={400} className="my-form" />
+        <Widget id="WsXHBNzf" height={500} className="my-form" />
       </div>
     </div>
   );
