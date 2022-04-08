@@ -49,7 +49,7 @@ body {
 }
 
 .animation1 {
-  width: 1000px;
+  width: 1400px;
 }
 
 .animation2 {
@@ -59,7 +59,9 @@ body {
 
 .animation3 {
   position: relative;
-  top: -50px;
+  top: 50px;
+  left: 50px;
+  width: 40vw;
 }
 
 .headshot {
@@ -85,4 +87,8 @@ body {
 
 .choosing {
   top: -20px;
+}
+
+.card {
+  box-shadow: -7px 7px black;
 }
