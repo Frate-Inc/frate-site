@@ -19,17 +19,16 @@ function App() {
                 <img src={logo} alt="logo"/> 
             </div>
             <div className="flex flex-wrap justify-end items-center p-5">
-                <button className='bg-green-700 hover:bg-green-600 button p-3 rounded extra text-xl text-white'>
-                <a href="#how">
+                <a href="#demo" className='bg-green-700 hover:bg-green-600 button p-3 rounded extra text-xl text-white'>
                   Book a Demo!
                 </a>
-                </button>
+
             </div>
           </div>
       </div>
 
       <div className="body grid grid-cols-1 md:grid-cols-2 content-center ">
-        <div className=" col-span-2 items-center p-10 ">
+        <div className=" col-span-1 items-center p-10 ">
             <div className='color-white text-5xl pl-8 extra '>
               <br></br>
               Reinvent returns to save the planet 
@@ -45,19 +44,14 @@ function App() {
                     <a href="#how" className='underline'>See how it works &rarr;</a>
                     <br></br>
                     <br></br>
-                  </div>
+                  </div>   
               </div>
-              <div>
-                <img src={animation1} alt="animation1" className='animation1 invisible md:visible'/>
-              </div>
-            </div>
-
-            
-            
+            </div>   
         </div>
+        <div>
+          <img src={animation1} alt="animation1" className='animation1 invisible md:visible'/>
+        </div>  
         
-      
-
       <div className="col-span-3 bg-green-700">
             <div className='text-3xl p-5 text-center text-white extra'>
               <div className='pt-8'>
@@ -149,6 +143,7 @@ function App() {
               </div>
             </div>
         </div>
+        <div className='px-10 bg-green-700'>
         <div className='text-center text-3xl bg-white extra border-black border-4 card '>
             <br></br>
             <span className='title extra'>With Frate:</span>
@@ -168,13 +163,16 @@ function App() {
         </div>
         <br></br>
       </div>
+      </div>
 
-      <div className='p-10 bg-green-700'>
+      <div id="how"></div>
+
+      <div className='p-10 bg-green-700' >
       <div className='border-black border-4 card bg-white'>
       <div className='grid grid-cols-1'>
         <div className="col-span-3 ">
             <div className='text-3xl p-5 text-center'>
-              <div id="how" className='extra p-8' >
+              <div className='extra p-8' >
                   How it works ...
               </div>
             </div>
@@ -205,7 +203,7 @@ function App() {
       </div>
       </div>
       </div>
-      <div className=' bg-gray-500'>
+      <div className='bg-gray-500' id="demo">
         <Widget id="WsXHBNzf" height={500} className="my-form" />
       </div>
     </div>
