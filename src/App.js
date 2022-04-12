@@ -22,13 +22,12 @@ function App() {
                 <a href="#demo" className='bg-green-700 hover:bg-green-600 button p-3 rounded extra text-xl text-white'>
                   Book a Demo!
                 </a>
-
             </div>
           </div>
       </div>
 
-      <div className="body grid grid-cols-1 md:grid-cols-2 content-center ">
-        <div className=" col-span-1 items-center p-10 ">
+      <div className="body grid  md:grid-cols-2 content-center ">
+        <div className="col-span-1 items-center p-10 ">
             <div className='color-white text-5xl pl-8 extra '>
               <br></br>
               Reinvent returns to save the planet 
@@ -119,7 +118,7 @@ function App() {
             </div>
             <div>
               <div className='text-2xl align-top'>
-                  <img src={animation2} alt="animation2" className='invisible md:visible'/>
+                  <img src={animation2} alt="animation2" className='invisible md:visible p-10'/>
                   <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div className='animation2 text-center'>
                         <div className='extra underline'>You incur the cost of:</div>
@@ -155,7 +154,7 @@ function App() {
             <div className='grid grid-cols-2'>
               <div className='text-center text-white text-4xl'>
                   <div className='animation3'>
-                    <img src={animation3} alt="animation3" className='invisible md:visible'/>
+                    <img src={animation3} alt="animation3" className='p-10 invisible md:visible'/>
                   </div>
               </div>
             </div>
@@ -180,10 +179,10 @@ function App() {
       </div>
       <div className='grid grid-cols-2 text-center p-10 md:p-1'>
         <div className='flex flex-wrap justify-end items-center pr-10'>
-            <img src={fedex} className='brandLogo'></img>
+            <img src={fedex} className='brandLogo invisible md:visible'></img>
         </div>
         <div className='flex flex-wrap justify-start items-center pl-10'>
-            <img src={shopify} className='brandLogo'></img>
+            <img src={shopify} className='brandLogo invisible md:visible'></img>
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2'>
