@@ -3,10 +3,8 @@ import animation1 from './images/animation1.png'
 import animation2 from './images/animation2.png'
 import animation3 from './images/animation3.png'
 import logo from './images/logo.png'
-import partners from './images/partners.png'
-import fedex from './images/fedex.png'
 import shopify from './images/shopify.png'
-import { Widget, PopupButton, Sidetab } from '@typeform/embed-react'
+import { Widget } from '@typeform/embed-react'
 
 function App() {
 
@@ -177,24 +175,16 @@ function App() {
             </div>
         </div>
       </div>
-      <div className='grid grid-cols-2 text-center p-10 md:p-1'>
-        <div className='flex flex-wrap justify-end items-center pr-10'>
-            <img src={fedex} className='brandLogo invisible md:visible'></img>
-        </div>
-        <div className='flex flex-wrap justify-start items-center pl-10'>
+      <div className='grid grid-cols-1 text-center p-10 md:p-1'>
+        <div className='flex flex-wrap justify-center items-center pl-10'>
             <img src={shopify} className='brandLogo invisible md:visible'></img>
         </div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2'>
-        <div className='flex flex-wrap justify-end items-center text-right'>
-            <div className='text-2xl extra p-10'>
-              We partnered with Fedex to allow your customer to show the shipping 
-              clerk a QR code instead of printing out their label.
-            </div>
-        </div>
-        <div className='flex flex-wrap justify-start items-center p-10'>
+      <div className='grid grid-cols-1'>
+        <div className='flex flex-wrap text-center items-center p-10'>
             <div className='text-2xl extra'>
-              We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily. Not on Shopify? We'd still love to hear from you!
+              We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily. 
+              Not on Shopify? We'd still love to hear from you!
             </div>
         </div>
         <br></br>
