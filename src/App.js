@@ -2,6 +2,12 @@ import './App.css';
 import animation1 from './images/animation1.png'
 import animation2 from './images/animation2.png'
 import animation3 from './images/animation3.png'
+
+import Zale from './images/Zale.png'
+import PerfectDD from './images/PerfectDD.png'
+import Jimwear from './images/Jimwear.png'
+import Sunga_Life from './images/Sunga Life.png'
+
 import logo from './images/logo.png'
 import shopify from './images/shopify.png'
 import { Widget } from '@typeform/embed-react'
@@ -164,7 +170,7 @@ function App() {
 
       <div id="how"></div>
 
-      <div className='p-10 bg-green-700' >
+      <div className='p-10 bg-gradient-to-b from-green-700 to-white ' >
       <div className='border-black border-4 card bg-white'>
       <div className='grid grid-cols-1'>
         <div className="col-span-3 ">
@@ -192,7 +198,31 @@ function App() {
       </div>
       </div>
       </div>
-      <div className='bg-gray-500' id="demo">
+
+      <div className='p-10'>
+        <div className='flex flex-wrap text-center items-center p-10'>
+            <div className='text-3xl extra'>
+              Check out some of our retail partners:
+            </div>
+        </div>
+      </div>
+      <div className='grid grid-cols-1 md:grid-cols-6 flex items-center '>
+        <div></div>
+          <a href={"https://www.sungalife.com/en-ca"} className="brand mx-auto p-5">
+            <img  src={Sunga_Life} className=''></img>
+          </a>
+          <a href={"https://zaleapparel.com/"} className="brand mx-auto p-5">
+            <img src={Zale} className=''></img>
+          </a>
+          <a href={"https://perfectdd.com/ "} className="brand mx-auto p-5">
+            <img src={PerfectDD} className=''></img>
+          </a>
+          <a href={"https://www.jimwearapparel.com/"} className="brand mx-auto p-5">
+            <img src={Jimwear} className=''></img>
+          </a>
+        </div>
+        <div></div>
+      <div className='bg-white' id="demo">
         <Widget id="WsXHBNzf" height={500} className="my-form" />
       </div>
     </div>
