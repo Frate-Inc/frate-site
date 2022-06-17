@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
 
-      <div className='navbar bg-white'>
+      <div className='navbar bg-white '>
           <div className='grid grid-cols-2'>
             <div className='logo p-5'>
                 <img src={logo} alt="logo"/> 
@@ -99,72 +99,6 @@ function App() {
               <span className='extra '>15M</span> tonnes of CO2 emitted from return shipping trips
             </div>
         </div>
-      </div>
-      </div>
-
-      <div className="col-span-3 bg-green-700">
-        <div className='text-3xl p-5 text-center text-white'>
-            <div className='title pt-8 extra'>
-              Let's reinvent this!
-            </div>
-        </div>
-        <br></br>
-      </div>
-
-      <div className='grid grid-cols-1 md:grid-cols-2 bg-green-700 border-green-700 border-8'>
-        <div className='text-center text-3xl extra p-10 md:p-1 text-white'>
-            <br></br>
-            <span className='title extra'>Your current returns process:</span>
-            <br></br>
-            <br></br>
-            <div className='text-2xl pl-8 pr-8'>
-              customer ships item back to your store/warehouse, workers handle, process, and repackage the return, then ship it out to the next customer at a discount OR liquidate it. 
-            </div>
-            <div>
-              <div className='text-2xl align-top'>
-                  <img src={animation2} alt="animation2" className='invisible md:visible p-10'/>
-                  <div className='grid grid-cols-1 md:grid-cols-2'>
-                    <div className='animation2 text-center'>
-                        <div className='extra underline'>You incur the cost of:</div>
-                        <br></br>
-                        1. Shipping
-                        <br></br>
-                        2. Handling
-                        <br></br>
-                        3. Liquidation
-                    </div>
-                    <div className='animation2 text-center p-10 md:p-1'>
-                        <div className='extra underline'>You cost the planet:</div>
-                        <br></br>
-                        1. An extra shipping trip
-                        <br></br>
-                        2. Wasted packaging
-                        <br></br>
-                        3. Potential landfill waste
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-        <div className='px-10 bg-green-700'>
-        <div className='text-center text-3xl bg-white extra border-black border-4 card '>
-            <br></br>
-            <span className='title extra'>With Frate:</span>
-            <br></br>
-            <br></br>
-            <div className='text-2xl pl-8 pr-8'>
-              customer returns the item directly to the next customer.
-            </div>
-            <div className='grid grid-cols-2'>
-              <div className='text-center text-white text-4xl'>
-                  <div className='animation3'>
-                    <img src={animation3} alt="animation3" className='p-10 invisible md:visible'/>
-                  </div>
-              </div>
-            </div>
-            <br></br>
-        </div>
-        <br></br>
       </div>
       </div>
 
