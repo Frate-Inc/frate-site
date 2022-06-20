@@ -7,6 +7,8 @@ import Zale from './images/Zale.png'
 import PerfectDD from './images/PerfectDD.png'
 import Jimwear from './images/Jimwear.png'
 import Sunga_Life from './images/Sunga Life.png'
+import prana from './images/prana.png'
+import cedar from './images/cedar.png'
 
 import logo from './images/logo.png'
 import shopify from './images/shopify.png'
@@ -68,7 +70,7 @@ function App() {
       </div>
 
       <div className='p-10 bg-green-700'>
-      <div className="grid grid-cols-1 md:grid-cols-6 border-black border-4 card">
+      <div className="grid grid-cols-1 md:grid-cols-6 border-black border-4 ">
         <div className='text-center p-8 bg-gradient-to-r from-white via-white to-green-100'>
             <div className='text-2xl'>
               <span className='extra'>$102B</span> USD spent annually on returns
@@ -105,7 +107,7 @@ function App() {
       <div id="how"></div>
 
       <div className='p-10 bg-gradient-to-b from-green-700 to-white ' >
-      <div className='border-black border-4 card bg-white'>
+      <div className='border-black border-4  bg-white'>
       <div className='grid grid-cols-1'>
         <div className="col-span-3 ">
             <div className='text-3xl p-5 text-center'>
@@ -123,8 +125,7 @@ function App() {
       <div className='grid grid-cols-1'>
         <div className='flex flex-wrap text-center items-center p-10'>
             <div className='text-2xl extra'>
-              We partnered with Shopify and built an app for the admin portal so you can process returns with Frate easily. 
-              Not on Shopify? We'd still love to hear from you!
+              We partnered with Shopify and built a solution that expedites the returns process for you and your customers.
             </div>
         </div>
         <br></br>
@@ -141,7 +142,13 @@ function App() {
         </div>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-6 flex items-center '>
-        <div></div>
+
+          <a href={"https://www.pranavidastyle.com/"} target="_blank" className="brand mx-auto p-5">
+            <img src={prana} className=''></img>
+          </a>
+          <a href={"https://cedarandvine.net/"} className="brand mx-auto p-5">
+            <img src={cedar} className=''></img>
+          </a>
           <a href={"https://www.sungalife.com/en-ca"} className="brand mx-auto p-5">
             <img  src={Sunga_Life} className=''></img>
           </a>
