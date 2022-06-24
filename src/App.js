@@ -9,6 +9,7 @@ import Jimwear from './images/Jimwear.png'
 import Sunga_Life from './images/Sunga Life.png'
 import prana from './images/prana.png'
 import cedar from './images/cedar.png'
+import background from './images/background.png'
 
 import logo from './images/logo.png'
 import shopify from './images/shopify.png'
@@ -19,23 +20,23 @@ function App() {
   return (
     <div>
 
-      <div className='navbar bg-white '>
+      <div className=''>
           <div className='grid grid-cols-2'>
-            <div className='logo p-5'>
-                <img src={logo} alt="logo"/> 
+            <div className='logo p-10 text-5xl extra'>
+                Frate
             </div>
             <div className="flex flex-wrap justify-end items-center p-5">
-                <a href="#demo" className='bg-green-700 hover:bg-green-600 button p-3 rounded extra text-xl text-white'>
+                <a href="#demo" className='bg-green-900 hover:bg-green-800 button p-3 rounded extra text-xl text-white'>
                   Book a Demo!
                 </a>
             </div>
           </div>
       </div>
 
-      <div className="body grid  md:grid-cols-2 content-center ">
-        <div className="col-span-1 items-center p-10 ">
-            <div className='color-white text-5xl pl-8 extra '>
-              <br></br>
+      
+      <div className="body grid md:grid-cols-2 content-center">
+        <div className="col-span-1 items-center p-10">
+            <div className='color-white text-5xl extra text-white bg-green-900 p-10 rounded-3xl'>
               Reinvent returns to save the planet 
               <br></br>
               & your profits
@@ -48,55 +49,51 @@ function App() {
                     <br></br>
                     <a href="#how" className='underline'>See how it works &rarr;</a>
                     <br></br>
-                    <br></br>
                   </div>   
               </div>
             </div>   
         </div>
         <div>
-          <img src={animation1} alt="animation1" className='animation1 invisible md:visible'/>
         </div>  
         
-      <div className="col-span-3 bg-green-700">
-            <div className='text-3xl p-5 text-center text-white extra'>
-              <div className='pt-8'>
+      </div>
+
+      <div className='p-10 bg-green-900'>
+      <div className='text-3xl p-5 text-center text-white extra'>
+              <div className='p-8'>
                   The traditonal returns process 
                   <br></br>
                   is killing your profits and the planet:
               </div>
             </div>
-            <br></br>
-        </div>
-      </div>
-
-      <div className='p-10 bg-green-700'>
       <div className="grid grid-cols-1 md:grid-cols-6 border-black border-4 ">
-        <div className='text-center p-8 bg-gradient-to-r from-white via-white to-green-100'>
+        
+        <div className='text-center p-8 bg-gradient-to-r from-white to-orange-100'>
             <div className='text-2xl'>
               <span className='extra'>$102B</span> USD spent annually on returns
             </div>
         </div>
-        <div className='text-center p-8 bg-gradient-to-r from-green-100 via-green-100 to-green-200'>
+        <div className='text-center p-8 bg-gradient-to-r from-orange-100 to-orange-200'>
             <div className='text-2xl'>
               <span className='extra'>66%</span> cost of the average return to a retailer
             </div>
         </div>
-        <div className='text-center p-8 bg-gradient-to-r from-green-200 via-green-200 to-green-300'>
+        <div className='text-center p-8 bg-gradient-to-r from-orange-200 to-orange-300'>
             <div className='text-2xl'>
               <span className='extra'>42%</span> of retailers pay the cost of return shipping
             </div>
         </div>
-        <div className='text-center p-8 bg-gradient-to-r from-green-300 via-green-300 to-green-400'>
+        <div className='text-center p-8 bg-gradient-to-r from-orange-300 to-orange-400'>
             <div className='text-2xl'>
               <span className='extra'>5B</span> pounds of returns in landfills annually
             </div>
         </div>
-        <div className='text-center p-8 bg-gradient-to-r from-green-400 via-green-400 to-green-500'>
+        <div className='text-center p-8 bg-gradient-to-r from-orange-400 to-orange-500'>
             <div className='text-2xl '>
               <span className='extra'>46%</span> of return packaging is wasted
             </div>
         </div>
-        <div className='text-center p-8 bg-gradient-to-r from-green-500 via-green-500 to-green-600'>
+        <div className='text-center p-8 bg-gradient-to-r from-orange-500 to-orange-600'>
             <div className='text-2xl'>
               <span className='extra '>15M</span> tonnes of CO2 emitted from return shipping trips
             </div>
@@ -106,10 +103,10 @@ function App() {
 
       <div id="how"></div>
 
-      <div className='p-10 bg-gradient-to-b from-green-700 to-white ' >
-      <div className='border-black border-4  bg-white'>
+      <div className='p-10 bg-gradient-to-b from-green-900 to-white' >
+      <div className='border-black border-4 bg-sky-100'>
       <div className='grid grid-cols-1'>
-        <div className="col-span-3 ">
+        <div className="col-span-3">
             <div className='text-3xl p-5 text-center'>
               <div className='extra p-8' >
                   How it works ...
@@ -123,8 +120,8 @@ function App() {
         </div>
       </div>
       <div className='grid grid-cols-1'>
-        <div className='flex flex-wrap text-center items-center p-10'>
-            <div className='text-2xl extra'>
+        <div className='flex flex-wrap justify-center items-center p-10'>
+            <div className='text-2xl extra '>
               We partnered with Shopify and built a solution that expedites the returns process for you and your customers.
             </div>
         </div>
@@ -134,14 +131,14 @@ function App() {
       </div>
       </div>
 
-      <div className='p-10'>
-        <div className='flex flex-wrap text-center items-center p-10'>
+      <div className='p-10 bg-white'>
+        <div className='flex flex-wrap justify-center items-center p-10 bg-white'>
             <div className='text-3xl extra'>
               Check out some of our retail partners:
             </div>
         </div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-6 flex items-center '>
+      <div className='grid grid-cols-1 md:grid-cols-6 flex items-center bg-white'>
 
           <a href={"https://www.pranavidastyle.com/"} target="_blank" className="brand mx-auto p-5">
             <img src={prana} className=''></img>

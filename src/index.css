@@ -10,6 +10,9 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/background.png");
+  background-size: 100%;
+  background-repeat: unset;
 }
 
 .navbar {
@@ -21,6 +24,7 @@ body {
 .body {
   position: relative;
   padding-top: 80px;
+  padding-bottom: 200px;
 }
 
 .partners {
