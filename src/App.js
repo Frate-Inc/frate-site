@@ -1,17 +1,10 @@
 import './App.css';
-import animation1 from './images/animation1.png'
-import animation2 from './images/animation2.png'
-import animation3 from './images/animation3.png'
 
-import Zale from './images/Zale.png'
 import PerfectDD from './images/PerfectDD.png'
-import Jimwear from './images/Jimwear.png'
-import Sunga_Life from './images/Sunga Life.png'
 import prana from './images/prana.png'
 import cedar from './images/cedar.png'
-import background from './images/background.png'
+import gfs from './images/gfs.png'
 
-import logo from './images/logo.png'
 import shopify from './images/shopify.png'
 import { Widget } from '@typeform/embed-react'
 
@@ -138,7 +131,7 @@ function App() {
             </div>
         </div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-6 flex items-center bg-white'>
+      <div className='grid grid-cols-1 md:grid-cols-4 flex items-center bg-white'>
 
           <a href={"https://www.pranavidastyle.com/"} target="_blank" className="brand mx-auto p-5">
             <img src={prana} className=''></img>
@@ -146,17 +139,11 @@ function App() {
           <a href={"https://cedarandvine.net/"} className="brand mx-auto p-5">
             <img src={cedar} className=''></img>
           </a>
-          <a href={"https://www.sungalife.com/en-ca"} className="brand mx-auto p-5">
-            <img  src={Sunga_Life} className=''></img>
-          </a>
-          <a href={"https://zaleapparel.com/"} className="brand mx-auto p-5">
-            <img src={Zale} className=''></img>
-          </a>
           <a href={"https://perfectdd.com/ "} className="brand mx-auto p-5">
             <img src={PerfectDD} className=''></img>
           </a>
-          <a href={"https://www.jimwearapparel.com/"} className="brand mx-auto p-5">
-            <img src={Jimwear} className=''></img>
+          <a href={"https://www.goodforsunday.com/"} className="brand mx-auto p-5">
+            <img src={gfs} className=''></img>
           </a>
         </div>
         <div></div>
