@@ -26,6 +26,10 @@ function App() {
           </div>
       </div>
 
+      <div>
+        hey
+      </div>
+
       
       <div className="body grid md:grid-cols-2 content-center">
         <div className="col-span-1 items-center p-10">
